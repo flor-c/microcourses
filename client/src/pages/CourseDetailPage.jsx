@@ -11,7 +11,9 @@ function CourseDetailPage() {
 
   return (
     <div className="course-detail">
+      <img src={course.image} alt={course.title} />
       <h1>{course.title}</h1>
+      <p>{course.description}</p>
     </div>
   );
 }
